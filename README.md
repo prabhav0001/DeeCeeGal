@@ -12,10 +12,10 @@ We are following a step-by-step implementation approach.
     - [x] Configure basic Theming (Material3)
     - [x] Set up Copilot Instructions
 
-- [ ] **Phase 1: Foundation & Architecture**
-    - [ ] Set up Dependency Injection (Hilt or Koin)
-    - [ ] Configure Navigation (Jetpack Navigation Compose)
-    - [ ] Define Project Structure (MVVM/MVI, Feature-based packaging)
+- [x] **Phase 1: Foundation & Architecture**
+    - [x] Set up Dependency Injection (Hilt)
+    - [x] Configure Navigation (Jetpack Navigation Compose)
+    - [x] Define Project Structure (MVVM/MVI, Feature-based packaging)
 
 - [ ] **Phase 2: Core UI & Features**
     - [ ] Create Home Screen Layout
