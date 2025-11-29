@@ -18,9 +18,9 @@ We are following a step-by-step implementation approach.
     - [x] Define Project Structure (MVVM/MVI, Feature-based packaging)
 
 - [ ] **Phase 2: Core UI & Features**
-    - [ ] Create Home Screen Layout
-    - [ ] Implement Bottom Navigation (if applicable)
-    - [ ] Create Detail/View Screen
+    - [x] Create Home Screen Layout
+    - [x] Implement Bottom Navigation (if applicable)
+    - [x] Create Detail/View Screen
 
 - [ ] **Phase 3: Data Layer**
     - [ ] Set up Networking (Retrofit/Ktor)

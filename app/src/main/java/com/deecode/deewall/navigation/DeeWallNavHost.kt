@@ -5,7 +5,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.deecode.deewall.Greeting
+import com.deecode.deewall.ui.detail.DetailScreen
+import com.deecode.deewall.ui.favorites.FavoritesScreen
+import com.deecode.deewall.ui.home.HomeScreen
 
 @Composable
 fun DeeWallNavHost(
@@ -19,10 +21,17 @@ fun DeeWallNavHost(
         modifier = modifier
     ) {
         composable(Screen.Home.route) {
-            Greeting(name = "Home Screen")
+            HomeScreen(
+                onNavigateToDetail = { navController.navigate(Screen.Detail.route) }
+            )
+        }
+        composable(Screen.Favorites.route) {
+            FavoritesScreen()
         }
         composable(Screen.Detail.route) {
-            Greeting(name = "Detail Screen")
+            DetailScreen(
+                onNavigateUp = { navController.navigateUp() }
+            )
         }
     }
 }
