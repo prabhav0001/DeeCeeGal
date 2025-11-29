@@ -22,10 +22,10 @@ We are following a step-by-step implementation approach.
     - [x] Implement Bottom Navigation (if applicable)
     - [x] Create Detail/View Screen
 
-- [ ] **Phase 3: Data Layer**
-    - [ ] Set up Networking (Retrofit/Ktor)
-    - [ ] Set up Local Storage (Room/DataStore)
-    - [ ] Implement Repository Pattern
+- [x] **Phase 3: Data Layer**
+    - [x] Set up Networking (Retrofit/Ktor)
+    - [x] Set up Local Storage (Room/DataStore)
+    - [x] Implement Repository Pattern (Cloudinary Integration)
 
 - [ ] **Phase 4: Polish & Release**
     - [ ] Add Animations & Transitions
